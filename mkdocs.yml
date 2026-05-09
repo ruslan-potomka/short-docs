@@ -2,23 +2,58 @@ site_name: DBA Docs
 site_url: https://ruslan-potomka.github.io/short-docs/
 site_author: Ruslan Potomka
 site_description: Database Administrator's Brief Documentation
+
+repo_url: https://github.com/ruslan-potomka/short-docs/
+repo_name: ruslan-potomka/short-docs
+
 copyright: >
   © 2026 Ruslan —
   <a href="https://www.linkedin.com/in/ruslan-potomka" target="_blank" rel="noopener">
     LinkedIn
   </a>
+
 extra:
   generator: false
+
+plugins:
+  - search
+
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 theme:
   name: material
   language: ru
   palette:
-    primary: indigo
-    accent: blue
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Переключить на тёмную тему
+
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Переключить на светлую тему
   features:
     - navigation.tabs
     - navigation.sections
@@ -26,5 +61,16 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
 nav:
   - Главная: index.md
+  - PostgreSQL:
+      - О чем раздел: postgresql/about-postgresql.md
+      - Установка из TAR архива: postgresql/install-single-from-tar.md
+      - Настройка streaming репликации без SSL: postgresql/setting-simple-streaming-replication-without-ssl.md
