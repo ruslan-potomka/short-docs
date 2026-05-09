@@ -1,0 +1,17 @@
+site_name: DBA Docs
+site_url: http://127.0.0.1:8000/
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+nav:
+  - Главная: index.md
