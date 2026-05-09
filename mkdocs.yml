@@ -1,5 +1,18 @@
 site_name: DBA Docs
-site_url: http://127.0.0.1:8000/
+site_url: http://ruslan-potomka.github.io/short-docs
+site_author: Ruslan Potomka
+site_description: Database Administrator's Brief Documentation
+copyright: >
+  © 2026 Ruslan —
+  <a href="https://www.linkedin.com/in/ruslan-potomka" target="_blank" rel="noopener">
+    LinkedIn
+  </a>
+extra:
+  generator: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 theme:
   name: material
   language: ru
