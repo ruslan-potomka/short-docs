@@ -67,10 +67,14 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tabs.link
 
 nav:
-  - Главная: index.md
+  - Базы данных: index.md
   - PostgreSQL:
-      - О чем раздел: postgresql/about-postgresql.md
-      - Установка из TAR архива: postgresql/install-single-from-tar.md
-      - Настройка streaming репликации без SSL: postgresql/setting-simple-streaming-replication-without-ssl.md
+      - О чем раздел: postgresql/postgresql-about.md
+  - MySQL:
+      - О чем раздел: mysql/mysql-about.md
+      - Установка из TAR архива: mysql/mysql-install-from-tar.md
+  - MariaDB:
+      - О чем раздел: mariadb/mariadb-about.md

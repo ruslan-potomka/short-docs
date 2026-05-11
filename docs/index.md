@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Базы данных
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Краткие практические инструкции по установке, настройке и обслуживанию баз данных.
 
-## Commands
+!!! info "О разделе"
+    Здесь собраны инструкции и заметки, которые можно использовать как шпаргалку при работе с MySQL, PostgreSQL и MariaDB.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! tip ":rocket: Быстрый старт"
+    Выберите нужную СУБД и перейдите к инструкции.
 
-## Project layout
+## Разделы
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+| СУБД | Описание |
+|---|---|
+| [MySQL](mysql/mysql-about.md) | Установка, настройка, диагностика. |
+| [PostgreSQL](postgresql/postgresql-about.md) | Установка, настройка, диагностика. |
+| [MariaDB](mariadb/mariadb-about.md) | Установка, настройка, диагностика. |
