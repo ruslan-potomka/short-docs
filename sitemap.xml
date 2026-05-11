@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ruslan-potomka.github.io/short-docs/</loc>
+         <lastmod>2026-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ruslan-potomka.github.io/short-docs/mariadb/mariadb-about/</loc>
+         <lastmod>2026-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ruslan-potomka.github.io/short-docs/mysql/mysql-about/</loc>
+         <lastmod>2026-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ruslan-potomka.github.io/short-docs/mysql/mysql-install-from-tar/</loc>
+         <lastmod>2026-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ruslan-potomka.github.io/short-docs/postgresql/postgresql-about/</loc>
+         <lastmod>2026-05-11</lastmod>
+    </url>
+</urlset>
