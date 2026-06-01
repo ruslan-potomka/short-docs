@@ -73,6 +73,7 @@ nav:
   - Базы данных: index.md
   - PostgreSQL:
       - О чем раздел: postgresql/postgresql-about.md
+      - Установка из TAR архива: postgresql/postgresql-install-from-tar.md
   - MySQL:
       - О чем раздел: mysql/mysql-about.md
       - Установка из TAR архива: mysql/mysql-install-from-tar.md
