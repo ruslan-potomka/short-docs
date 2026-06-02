@@ -145,15 +145,15 @@ psql -h /tmp -p 5432 -U app_user -d app_db
 Пример:
 
 ```text
-/tmp:5432:*:postgres:Qwerty123!
+192.168.32.41:5432:*:postgres:Qwerty123!
 ```
 
 Это означает:
 
 ```text
-/tmp        — подключение через Unix socket
-5432        — порт 5432
-*           — любая база данных
-postgres    — пользователь postgres
-Qwerty123!  — пароль пользователя postgres
+192.168.32.41 — ip сервера
+5432          — порт 5432
+*             — любая база данных
+postgres      — пользователь postgres
+Qwerty123!    — пароль пользователя postgres
 ```
