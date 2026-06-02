@@ -74,7 +74,7 @@ nav:
   - PostgreSQL:
       - О чем раздел: postgresql/postgresql-about.md
       - Установка из TAR архива: postgresql/postgresql-install-from-tar.md
-      - Подключение к PostgreSQL через .pgpass: postgresql/connect-to-cluster-pass-pgpass.md
+      - Подключение к PostgreSQL через .pgpass: postgresql/postgresql-connect-to-cluster-pass-pgpass.md
   - MySQL:
       - О чем раздел: mysql/mysql-about.md
       - Установка из TAR архива: mysql/mysql-install-from-tar.md
