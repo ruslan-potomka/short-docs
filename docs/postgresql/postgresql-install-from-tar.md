@@ -149,7 +149,7 @@ export PGUSER=postgres
 export PGPASSWORD='Qwerty123!'
 export PGDATABASE=postgres
 export PGPORT=5432
-export PGHOST=/tmp
+export PGHOST=192.168.32.32
 
 export LD_LIBRARY_PATH=$PG_HOME/lib
 

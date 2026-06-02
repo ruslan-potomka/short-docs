@@ -102,22 +102,22 @@ psql -h /tmp -p 5432 -U postgres -d postgres -c "select version();"
 
 ### Вариант 2. Подключение через TCP/IP
 
-Если подключение выполняется через TCP/IP, например через `127.0.0.1`, строка в `.pgpass` будет такой:
+Если подключение выполняется через TCP/IP, например через `192.168.32.41`, строка в `.pgpass` будет такой:
 
 ```text
-127.0.0.1:5432:postgres:postgres:Qwerty123!
+192.168.32.41:5432:postgres:postgres:Qwerty123!
 ```
 
 Проверка подключения:
 
 ```bash
-psql -h 127.0.0.1 -p 5432 -U postgres -d postgres
+psql -h 192.168.32.41 -p 5432 -U postgres -d postgres
 ```
 
 Тестовый SQL-запрос:
 
 ```bash
-psql -h 127.0.0.1 -p 5432 -U postgres -d postgres -c "select version();"
+psql -h 192.168.32.41 -p 5432 -U postgres -d postgres -c "select version();"
 ```
 
 Если `.pgpass` настроен правильно, PostgreSQL подключится без запроса пароля.
