@@ -29,7 +29,7 @@ vim /home/postgres/.pgpass
 Добавляем строку подключения:
 
 ```text
-/tmp:5432:postgres:postgres:Qwerty123!
+192.168.32.41:5432:postgres:postgres:Qwerty123!
 ```
 
 Формат строки `.pgpass`:
@@ -41,11 +41,11 @@ hostname:port:database:username:password
 Где:
 
 ```text
-/tmp        — путь к Unix socket PostgreSQL
-5432        — порт PostgreSQL
-postgres    — имя базы данных
-postgres    — имя пользователя PostgreSQL
-Qwerty123!  — пароль пользователя postgres
+192.168.32.41   — ip сервера
+5432            — порт PostgreSQL
+postgres        — имя базы данных
+postgres        — имя пользователя PostgreSQL
+Qwerty123!      — пароль пользователя postgres
 ```
 
 ## 2. Назначение прав на файл `.pgpass`
