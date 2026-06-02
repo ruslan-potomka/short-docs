@@ -129,13 +129,13 @@ psql -h 192.168.32.41 -p 5432 -U postgres -d postgres -c "select version();"
 Строка в `.pgpass`:
 
 ```text
-/tmp:5432:app_db:app_user:Qwerty123!
+192.168.32.41:5432:app_db:app_user:Qwerty123!
 ```
 
 Проверка подключения:
 
 ```bash
-psql -h /tmp -p 5432 -U app_user -d app_db
+psql -h 192.168.32.41 -p 5432 -U app_user -d app_db
 ```
 
 ## 5. Пример `.pgpass` с wildcard
